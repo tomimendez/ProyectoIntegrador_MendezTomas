@@ -1,0 +1,38 @@
+div{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1{
+    text-align:center;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 0%; 
+}
+
+@media (min-width: 576px){
+    #fotoDePerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px black;
+        left: 1%;
+        top: 580px;
+    }
+}
+    @media (max-width: 575px){
+        #fotoDePerfil{
+            position: absolute;
+            width: 30%;
+            border-radius: 100%;
+            box-shadow: 3px 3px 3px black;
+            left: 35%;
+            top: 25%;
+        }
+        #nombre {
+            margin-top: 85px;
+        }
+    }

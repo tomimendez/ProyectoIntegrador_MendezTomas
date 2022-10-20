@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: cadetblue;
+}
+
+h2, h4{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+}
